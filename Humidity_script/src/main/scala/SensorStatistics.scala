@@ -7,7 +7,7 @@ import java.nio.file.Paths
 
 case class Measurement(sensorId : String, humidity: Option[Double])
 
-object myDemo {
+object SensorStatistics {
 
   def main(args: Array[String]): Unit = {
     val path = Paths.get(args(0))
